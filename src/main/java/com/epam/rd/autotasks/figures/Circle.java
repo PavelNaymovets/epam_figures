@@ -20,7 +20,7 @@ public class Circle extends Figure {
     }
 
     public Point leftmostPoint(){
-        return new Point(centre.getX() - radius, 0);
+        return new Point(centre.getX() - radius, centre.getY());
     }
 
     @Override
